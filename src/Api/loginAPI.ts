@@ -1,7 +1,7 @@
 import { User } from "../model/user";
 import axios from "axios";
 import { Profile } from "../model/profile";
-const MY_server='http://44.202.160.222/'
+const MY_server='https://44.202.160.222/'
 // A mock function to mimic making an async request for data
 export const login=(user:User)=>{
   console.log(MY_server)
